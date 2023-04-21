@@ -1,0 +1,42 @@
+header {
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+nav {
+  visibility: hidden;
+  text-align: center;
+}
+
+.news-section {
+  padding: 3%;
+}
+/* space between top and bottom article in  tab view */
+.article {
+  margin-bottom: 3%;
+  background-color: white;
+  border-radius: 3%;
+}
+
+.articlecontent {
+  padding: 3%;
+}
+
+.articlecontent > span { float: right; }
+/*adjust paragraph overflow*/
+.articlecontent > p {
+  height: 60px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.articlecontent > button:hover {
+  background-color: azure;
+}
+
+.articleimage {
+  width: 100%;
+}
