@@ -1,3 +1,3 @@
-# Assignments_salt
+# Assignments
 
 Assignments
